@@ -46,10 +46,10 @@ I've added an additional dropout layer to avoid overfitting after the convolutio
 
 
 **Challenges:**
-I think the most challenge is generating enough data for your model. For some tricky curves on the road, you need to create more data.
-Building a model in Pytorch is not as straightforward as in Keras. You need to understand the framework and how it processes data first.
-Need to create a Dataloader for your own data.
-Re-use as much code as possible.
-You might see the car wobble a lot or maybe it is confined to one side of the road. This might mean that the data is not augmented and generalized properly. Try to acquire more training data or augment with more randomness.
+I think the most challenge is generating enough data for your model. For some tricky curves on the road, you need to create more data.</br>
+Building a model in Pytorch is not as straightforward as in Keras. You need to understand the framework and how it processes data first.</br>
+Need to create a Dataloader for your own data.</br>
+Re-use as much code as possible.</br>
+You might see the car wobble a lot or maybe it is confined to one side of the road. This might mean that the data is not augmented and generalized properly. Try to acquire more training data or augment with more randomness.</br>
 
 
