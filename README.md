@@ -27,13 +27,13 @@ The NVIDIA neural network above consists of 9 layers: 1 normalization layer, 5 c
 My implementation of the CNN :
 
 **Model summary:**
- (module): CarSimpleModel (
-    (conv_layers): Sequential (
-      (0): Conv2d(3, 24, kernel_size=(3, 3), stride=(2, 2), bias=False)
-      (1): ELU (alpha=1.0)
-      (2): Conv2d(24, 48, kernel_size=(3, 3), stride=(2, 2), bias=False)
-      (3): MaxPool2d (size=(4, 4), stride=(4, 4), dilation=(1, 1))
-      (4): Dropout (p = 0.25)
+ (module): CarSimpleModel (</br>
+    (conv_layers): Sequential (</br>
+      (0): Conv2d(3, 24, kernel_size=(3, 3), stride=(2, 2), bias=False)</br>
+      (1): ELU (alpha=1.0)</br>
+      (2): Conv2d(24, 48, kernel_size=(3, 3), stride=(2, 2), bias=False)</br>
+      (3): MaxPool2d (size=(4, 4), stride=(4, 4), dilation=(1, 1))</br>
+      (4): Dropout (p = 0.25)</br>
     )
     (linear_layers): Sequential (
       (0): Linear (3648 -> 50)
