@@ -45,7 +45,7 @@ My implementation of the CNN :
 I've added an additional dropout layer to avoid overfitting after the convolution layers.</br>
 
 
-**Challenges:**
+**Challenges:**</br>
 I think the most challenge is generating enough data for your model. For some tricky curves on the road, you need to create more data.</br>
 Building a model in Pytorch is not as straightforward as in Keras. You need to understand the framework and how it processes data first.</br>
 Need to create a Dataloader for your own data.</br>
