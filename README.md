@@ -22,4 +22,9 @@ The following is a diagram of the NVIDIA neural network architecture taken from 
 ![nvidia_neural_network](https://user-images.githubusercontent.com/10712535/84471091-a5f7d600-ac52-11ea-9760-d94653229134.png)
 
 
+The NVIDIA neural network above consists of 9 layers: 1 normalization layer, 5 convolutional layers, and 3 fully connected layers.
+
+My implementation of the CNN differed slightly, I had in total 12 layers: 1 cropping layer, 1 normalization layer, 4 convolutional layers, 3 dropout layers, and 3 fully connected layers.
+
+
 
