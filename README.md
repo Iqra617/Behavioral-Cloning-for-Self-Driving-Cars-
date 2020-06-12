@@ -34,15 +34,15 @@ My implementation of the CNN :
       (2): Conv2d(24, 48, kernel_size=(3, 3), stride=(2, 2), bias=False)</br>
       (3): MaxPool2d (size=(4, 4), stride=(4, 4), dilation=(1, 1))</br>
       (4): Dropout (p = 0.25)</br>
-    )
-    (linear_layers): Sequential (
-      (0): Linear (3648 -> 50)
-      (1): ELU (alpha=1.0)
-      (2): Linear (50 -> 10)
-      (3): Linear (10 -> 1)
-    )
+    )</br>
+    (linear_layers): Sequential (</br>
+      (0): Linear (3648 -> 50)</br>
+      (1): ELU (alpha=1.0)</br>
+      (2): Linear (50 -> 10)</br>
+      (3): Linear (10 -> 1)</br>
+    )</br>
  
-I've added an additional dropout layer to avoid overfitting after the convolution layers.
+I've added an additional dropout layer to avoid overfitting after the convolution layers.</br>
 
 
 **Challenges:**
