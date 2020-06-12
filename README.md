@@ -9,7 +9,7 @@ Collect training data by driving the car around the simulator.
 Implement the NVIDIA neural network.
 Train and test model performance.
 
-Collecting Training Data
+**Collecting Training Data**
 
 The simulator can be run in two modes: training mode and autonomous mode.
 
