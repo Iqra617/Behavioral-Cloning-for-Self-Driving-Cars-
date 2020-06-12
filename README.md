@@ -48,9 +48,13 @@ I've added an additional dropout layer to avoid overfitting after the convolutio
 The project includes the following files:
 
 self_driving_car.py containing the script to create and train the model.</br>
-Self_Driving_Car.ipynb containing the notebook code to create and train the model.</br>
+
+src_code.ipynb containing the notebook code to create and train the model.</br>
+
 model.py as a helper function for loading the required model in drive.py.</br>
+
 drive.py for driving the car in autonomous mode.</br>
+
 model.h5 containing a trained convolution neural network.</br>
 
 **Challenges:**</br>
