@@ -19,5 +19,7 @@ In training mode, the user controls the movement of the car using the steering a
 To collect the training data, the car was driven in training mode around the track for two full laps using center lane driving behaviour. The data was then further reinforced with selective driving behaviour around corners to account for over-steer and under-steer, this allowed the model to learn the larger steering angle required to go around these corners.
 
 The following is a diagram of the NVIDIA neural network architecture taken from their blog:
+![nvidia_neural_network](https://user-images.githubusercontent.com/10712535/84471091-a5f7d600-ac52-11ea-9760-d94653229134.png)
+
 
 
