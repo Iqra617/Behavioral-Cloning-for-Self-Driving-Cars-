@@ -60,7 +60,8 @@ My implementation of the CNN :
  
 I've added an additional dropout layer to avoid overfitting after the convolution layers.</br>
 
-
+**Pytorch and CUDA**
+Pytorch provides an easy integration with CUDA enabled GPUs. This is done with a simple device() function. It can immensely speed up the training process, like 10x faster than a normal CPU. For that, we need to transfer our data and the model to GPU for processing. 
 
 **Challenges:**</br>
 I think the most challenge is generating enough data for your model. For some tricky curves on the road, you need to create more data.</br>
