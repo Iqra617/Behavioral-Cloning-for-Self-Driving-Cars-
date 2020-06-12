@@ -24,7 +24,32 @@ The following is a diagram of the NVIDIA neural network architecture taken from 
 
 The NVIDIA neural network above consists of 9 layers: 1 normalization layer, 5 convolutional layers, and 3 fully connected layers.
 
-My implementation of the CNN differed slightly, I had in total 12 layers: 1 cropping layer, 1 normalization layer, 4 convolutional layers, 3 dropout layers, and 3 fully connected layers.
+My implementation of the CNN :
 
+**Model summary:**
+ (module): CarSimpleModel (
+    (conv_layers): Sequential (
+      (0): Conv2d(3, 24, kernel_size=(3, 3), stride=(2, 2), bias=False)
+      (1): ELU (alpha=1.0)
+      (2): Conv2d(24, 48, kernel_size=(3, 3), stride=(2, 2), bias=False)
+      (3): MaxPool2d (size=(4, 4), stride=(4, 4), dilation=(1, 1))
+      (4): Dropout (p = 0.25)
+    )
+    (linear_layers): Sequential (
+      (0): Linear (3648 -> 50)
+      (1): ELU (alpha=1.0)
+      (2): Linear (50 -> 10)
+      (3): Linear (10 -> 1)
+    )
+ 
+I've added an additional dropout layer to avoid overfitting after the convolution layers.
+
+
+**Challenges:**
+I think the most challenge is generating enough data for your model. For some tricky curves on the road, you need to create more data.
+Building a model in Pytorch is not as straightforward as in Keras. You need to understand the framework and how it processes data first.
+Need to create a Dataloader for your own data.
+Re-use as much code as possible.
+You might see the car wobble a lot or maybe it is confined to one side of the road. This might mean that the data is not augmented and generalized properly. Try to acquire more training data or augment with more randomness.
 
 
