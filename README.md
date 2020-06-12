@@ -3,11 +3,14 @@ A supervised regression problem between the car steering angles and the road ima
 
 The project is based on the research by Nvidia.The network is a CNN which maps raw pixel inputs along with steering data from a log file and clones the behaviour of the steering in autonomous mode.
 
-The project consisted of the following stages:
+**Goals**
 
-Collect training data by driving the car around the simulator.
-Implement the NVIDIA neural network.
-Train and test model performance.
+The goals / steps of this project are the following:
+
+Use the simulator to collect data of good driving behavior.
+Build, a convolution neural network in Pytorch that predicts steering angles from images.
+Train and validate the model with a training and validation set.
+Test that the model successfully drives around the track without leaving the road.
 
 **Collecting Training Data**
 
