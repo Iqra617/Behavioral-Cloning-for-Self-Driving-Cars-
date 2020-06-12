@@ -12,6 +12,19 @@ Build, a convolution neural network in Pytorch that predicts steering angles fro
 Train and validate the model with a training and validation set.
 Test that the model successfully drives around the track without leaving the road.
 
+**Project Contents**
+The project includes the following files:
+
+self_driving_car.py containing the script to create and train the model.</br>
+
+src_code.ipynb containing the notebook code to create and train the model.</br>
+
+model.py as a helper function for loading the required model in drive.py.</br>
+
+drive.py for driving the car in autonomous mode.</br>
+
+model.h5 containing a trained convolution neural network.</br>
+
 **Collecting Training Data**
 
 The simulator can be run in two modes: training mode and autonomous mode.
@@ -47,18 +60,7 @@ My implementation of the CNN :
  
 I've added an additional dropout layer to avoid overfitting after the convolution layers.</br>
 
-**Project Contents**
-The project includes the following files:
 
-self_driving_car.py containing the script to create and train the model.</br>
-
-src_code.ipynb containing the notebook code to create and train the model.</br>
-
-model.py as a helper function for loading the required model in drive.py.</br>
-
-drive.py for driving the car in autonomous mode.</br>
-
-model.h5 containing a trained convolution neural network.</br>
 
 **Challenges:**</br>
 I think the most challenge is generating enough data for your model. For some tricky curves on the road, you need to create more data.</br>
